@@ -10,7 +10,7 @@ namespace hamming {
 	}
 	
 
-	std::size_t compute(std::string strand1, std::string strand2)
+	std::size_t compute(const std::string &strand1, const std::string &strand2)
 	{
 		// check that the two strands are of equal length
 		// otherwise throw domain error
