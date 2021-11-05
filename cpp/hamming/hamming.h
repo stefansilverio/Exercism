@@ -4,9 +4,7 @@
 
 namespace hamming {
 
-	int compute(std::string strand1, std::string strand2);
-
-	bool length_check(std::string strand1, std::string strand2);
+	std::size_t compute(std::string strand1, std::string strand2);
 
 }  // namespace hamming
 
