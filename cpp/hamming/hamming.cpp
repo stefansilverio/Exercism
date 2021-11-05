@@ -6,7 +6,7 @@ namespace hamming {
 
 	bool same_lengths(const std::string &strand1, const std::string &strand2)
 	{
-		return (strand1.length() != strand2.length());
+		return (strand1.length() == strand2.length());
 	}
 	
 
